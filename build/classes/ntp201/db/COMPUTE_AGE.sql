@@ -1,0 +1,1 @@
+SELECT cast(strftime('%Y.%m%d', 'now') - strftime('%Y.%m%d', birthdate) as int) from TB_employee 
